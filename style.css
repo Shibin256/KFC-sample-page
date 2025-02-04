@@ -1,0 +1,485 @@
+@font-face {
+    font-family: fontregular;
+    src: url(fonts/National2-Regular.18ca0636.otf);
+}
+
+@font-face {
+    font-family: fontmedium;
+    src: url(fonts/National2-Medium.86921bd9.otf);
+}
+
+@font-face {
+    font-family: fontbold;
+    src: url(fonts/National2Condensed-Bold.a091dde9.otf);
+}
+
+body {
+    margin: 0px;
+}
+
+/* === Header Styles === */
+.header {
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+}
+
+/* Borer line inside the navbar */
+.borderBottom {
+    width: 1290px;
+    height: 63%;
+    margin-left: 120px;
+    border-bottom: 2px solid #dee2e6 !important;
+}
+
+/* Top Set location button and text Style */
+.Top-location {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 9px 0;
+    height: 35px;
+    margin-right: 1.2%;
+}
+
+/* === Header Styles === */
+.main {
+    padding-top: 150px;
+}
+
+/* Location text Style */
+.locationText {
+    font-size: 14px;
+    color: #202124;
+    height: 32px;
+    padding-top: 5px;
+    margin-left: 5px;
+    line-height: 24px;
+    font-family: 'fontregular';
+}
+
+/* Set location Button Style */
+.setLocation-button {
+    font-size: 12px;
+    font-family: 'fontmedium';
+    line-height: 22px;
+    padding: 5px 9px;
+    margin-left: 23px;
+    color: #fff;
+    background-color: #202124;
+    border: 1px solid #494949 !important;
+    border-radius: 10rem;
+    box-sizing: border-box;
+}
+
+.setLocationdivider {
+    margin: 0;
+    border-top: 1px solid #cccbd3;
+}
+
+/* === Header Styles === */
+.MainHeader {
+    width: 92%;
+    display: flex;
+    justify-content: center;
+}
+
+.sides {
+    width: 50%;
+    height: 100%;
+}
+
+/* Left side Kfc logo Styles */
+.leftLogo {
+    margin: auto 2.8% auto -226px;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 36px;
+}
+
+/* Menu text style */
+.Menu {
+    float: left;
+    margin: 40px 0PX 0PX 133px;
+    font-family: 'fontmedium';
+    font-size: 14px;
+}
+
+/* Deals text style */
+.Deals {
+    float: left;
+    margin: 40px 0PX 0PX 42px;
+    font-family: 'fontmedium';
+    font-size: 14px;
+}
+
+/* Sign up icon Style */
+.accounticon {
+    width: 18px;
+    height: 18px;
+    margin: 40px 0PX 0PX 486px;
+}
+
+/* Cup shaped logo style */
+.cuplogo {
+    width: 50px;
+    height: 50px;
+    font-family: 'fontbold';
+    display: block;
+    border: none;
+    line-height: 55px;
+    padding: 0;
+    margin: -48px 0PX 0PX 608px;
+}
+
+/* === Sign in text Styles === */
+.SigninText {
+    margin-top: -18px;
+    margin-left: 516px;
+    width: 13%;
+    font-size: 14px;
+    font-family: 'fontmedium';
+    border-right: 1px solid #e3e3e3;
+}
+
+.QuatesPart {
+    width: 100%;
+    height: 71px;
+    background-color: #202124;
+    display: flex;
+    justify-content: center;
+}
+
+/* navbar bottom text style */
+.LetsOrder {
+    color: white;
+    padding-top: 5px;
+    font-family: 'fontbold';
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: .5px;
+}
+
+/* Start oder button Style */
+.order-button {
+    height: 2.75rem;
+    font-family: 'fontregular';
+    margin-left: 18px;
+    margin-top: 13px;
+    color: #fff;
+    background-color: #e4002b;
+    font-size: 14px;
+    width: 10.3rem;
+    border: 1px solid #494949 !important;
+    border-radius: 10rem;
+    box-sizing: border-box;
+
+}
+
+/* Main Heading text Styles */
+.Browse {
+    margin-top: 54px;
+    margin-left: 105px;
+    width: 549px;
+    font-family: 'fontbold';
+    font-size: 38px;
+    line-height: 43px;
+    letter-spacing: 1px;
+    color: #202124;
+    display: flex;
+    justify-content: center;
+}
+
+/* Line in the bottom of the Start order Button styles */
+.Browseline {
+    border-top: 2px solid #e3e3e3;
+    width: 590px;
+    margin-top: -60px;
+    margin-left: 755px;
+
+}
+/* First grid container of images styles */
+.girdcontainer {
+    margin: 67px 0PX 0PX 195px;
+    width: 1140px;
+    height: 1137px;
+    display: grid;
+    grid-template-columns: 23.725% 23.725% 23.725% 23.725%;
+    grid-template-rows: 23.725% 23.725% 23.725% 23.725%;
+    grid-gap: 20px;
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+.imagebg {
+    background-color: #f8f7f5;
+}
+
+.imageQuate {
+    font-family: 'fontbold';
+    font-size: 22px;
+    letter-spacing: .5px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+/* smaller images styles */
+.smallimg {
+    width: 270px;
+    height: 266px;
+}
+.image1div {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    width: 560px;
+    height: 556px;
+}
+.image2div {
+    grid-column: 3/ 4;
+    grid-row: 1 / 2;
+}
+
+.image3div {
+    grid-column: 4/ 5;
+    grid-row: 1 / 2;
+}
+
+.image4div {
+    grid-column: 3/ 4;
+    grid-row: 2 / 3;
+}
+
+.image5div {
+    grid-column: 4/ 5;
+    grid-row: 2 / 3;
+}
+
+.image6div {
+    grid-column: 1/ 2;
+    grid-row: 3 / 4;
+}
+
+.image7div {
+    grid-column: 2/ 3;
+    grid-row: 3 / 4;
+}
+
+.image8div {
+    grid-column: 3/4;
+    grid-row: 3 / 4;
+}
+
+.image9div {
+    grid-column: 4/ 5;
+    grid-row: 3 / 4;
+}
+
+.image10div {
+    grid-column: 1/2;
+    grid-row: 4 / 5;
+}
+
+.image11div {
+    grid-column: 2/ 3;
+    grid-row: 4 / 5;
+}
+
+.image12div {
+    width: 560px;
+    height: 266px;
+    grid-column: 3/ 5;
+    grid-row: 4 / 5;
+}
+
+/* Second div of sliders styles */
+.girdcontainer2 {
+    margin: 67px 0PX 0PX 278px;
+    width: 1140px;
+    height: 677px;
+    display: grid;
+    grid-template-columns: 310px 310px 310px 310px;
+    grid-template-rows: 100px 480px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.Threelines {
+    grid-column: 1/ 2;
+    grid-row: 1 / 2;
+    margin: -30px 0px 0px -15px;
+}
+/* Heading of third section */
+.SaveMore {
+    grid-column: 1/ 3;
+    grid-row: 1 / 2;
+    font-family: 'fontbold';
+    letter-spacing: 1px;
+    font-size: 38px;
+    line-height: 43px;
+    font-weight: 700;
+}
+/* card styles */
+.Card {
+    width: 310px;
+    height: 480px;
+    background-color: #f8f7f5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.CardmainQuate {
+    font-family: 'fontbold';
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-weight: 700;
+    line-height: 26px;
+
+}
+
+.CardsecondQuate {
+    font-size: 14px;
+    font-family: fontregular;
+    text-align: center;
+    padding: 8px;
+    margin-left: 8px;
+}
+
+
+/* View Deatials Text Styles */
+.Viewdetails {
+    text-decoration: underline;
+    font-family: 'fontregular';
+    font-size: 14px;
+}
+
+/* Apply offer Button Styles */
+.ApplyOffer {
+    height: 2.75rem;
+    font-size: .8rem;
+    padding: 5px 9px;
+    color: #fff;
+    background-color: black;
+    width: 10.3rem;
+    font-family: 'fontregular';
+    border-radius: 10rem;
+}
+/* four cards grid align */
+.card1grid {
+    grid-column: 1/ 2;
+    grid-row: 2 / 3;
+}
+
+.card2grid {
+    grid-column: 2/ 3;
+    grid-row: 2 / 3;
+}
+
+.card3grid {
+    grid-column: 3/ 4;
+    grid-row: 2 / 3;
+}
+
+.card4grid {
+    grid-column: 4/ 5;
+    grid-row: 2 / 3;
+}
+
+
+/* Footer Section Styles */
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: #202124;
+}
+.girdcontainerfooter {
+    margin: 0px 0PX 0PX 278px;
+    width: 1140px;
+    height: 379px;
+    display: grid;
+    grid-template-columns: 140px 120px 120px 120px 165px 175px 305px;
+    grid-template-rows: 85px 295px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+/* footer logo */
+.Footerlogo {
+    width: 22%;
+    height: 100%;
+}
+dl {
+    padding-top: 62px;
+    padding-left: 43px;
+}
+dt {
+    color: #cacacb;
+    font-family: 'fontregular';
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    padding-top: 14px;
+}
+/* Footer section grid align */
+.Footerlogo {
+    grid-column: 1/ 2;
+    grid-row: 2 / 3;
+}
+.List1 {
+    grid-column: 2/ 3;
+    grid-row: 2 / 3;
+    margin: -90px 0px 0px -39px;
+}
+.List2 {
+    grid-column: 3/ 4;
+    grid-row: 2 / 3;
+    margin: -90px 0px 0px -39px;
+}
+.List3 {
+    grid-column: 4/ 5;
+    grid-row: 2 / 3;
+    margin: -90px 0px 0px -39px;
+}
+.List4 {
+    grid-column: 5/ 6;
+    grid-row: 2 / 3;
+    margin: -90px 0px 0px -39px;
+}
+.FooterFindKFC {
+    font-family: 'fontregular';
+    color: white;
+    margin-left: 24px;
+    font-size: 13px;
+    margin-top: -22px;
+}
+.FooterLocationLogo {
+    grid-column: 6/ 7;
+    grid-row: 2 / 3;
+}
+.Footerimg1 {
+    grid-column: 7/ 8;
+    grid-row: 2 / 3;
+}
+.Footerimg2 {
+    grid-column: 7/ 8;
+    grid-row: 2 / 3;
+    padding-top: 60px;
+}
+/* copy right part */
+.Copyright {
+    color: #b7b7b8;
+    margin-top: -32px;
+    font-size: 12px;
+    font-family: 'fontregular';
+    margin-left: 520px;
+}
+/* social media logos */
+.BottomImg {
+    margin-left: 1186px;
+    margin-top: -46px;
+}
