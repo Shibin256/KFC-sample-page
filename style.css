@@ -2,17 +2,14 @@
     font-family: fontregular;
     src: url(fonts/National2-Regular.18ca0636.otf);
 }
-
 @font-face {
     font-family: fontmedium;
     src: url(fonts/National2-Medium.86921bd9.otf);
 }
-
 @font-face {
     font-family: fontbold;
     src: url(fonts/National2Condensed-Bold.a091dde9.otf);
 }
-
 body {
     margin: 0px;
 }
@@ -375,23 +372,18 @@ body {
     grid-column: 1/ 2;
     grid-row: 2 / 3;
 }
-
 .card2grid {
     grid-column: 2/ 3;
     grid-row: 2 / 3;
 }
-
 .card3grid {
     grid-column: 3/ 4;
     grid-row: 2 / 3;
 }
-
 .card4grid {
     grid-column: 4/ 5;
     grid-row: 2 / 3;
 }
-
-
 /* Footer Section Styles */
 footer {
     width: 100%;
